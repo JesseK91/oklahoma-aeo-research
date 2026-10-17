@@ -39,3 +39,5 @@ python3 analyze.py
 * **Organization:** [580 Digital Infrastructure](https://580di.com) (Lawton, Oklahoma)
 * **Research Hub:** [https://580di.com/research](https://580di.com/research)
 * **AI Search & AEO Services:** [https://580di.com/services/ai-search-visibility](https://580di.com/services/ai-search-visibility)
+* **OSF Archive:** [https://osf.io/sxpe8/](https://osf.io/sxpe8/)
+* **DOI:** [https://doi.org/10.17605/OSF.IO/SXPE8](https://doi.org/10.17605/OSF.IO/SXPE8)
