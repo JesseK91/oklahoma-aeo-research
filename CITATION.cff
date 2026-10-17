@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+title: "The 2026 Oklahoma Local AI Shortlist Study & AEO Research Archive"
+message: "If you use these datasets or verification scripts in your research or industry reporting, please cite them using the metadata below."
+type: dataset
+authors:
+  - name: "580 Digital Infrastructure"
+    city: "Lawton"
+    region: "OK"
+    country: "US"
+    website: "https://580di.com"
+url: "https://580di.com/research/oklahoma-local-ai-shortlist-study"
+repository-code: "https://github.com/JesseK91/oklahoma-aeo-research"
+date-released: "2026-10-16"
+version: "1.0.0"
+license: "CC-BY-4.0"
+keywords:
+  - "Answer Engine Optimization"
+  - "AEO"
+  - "Local SEO"
+  - "AI Search Visibility"
+  - "Oklahoma"
+  - "Gemini API"
+  - "Google Search Grounding"
+  - "Bing AI Performance"

@@ -1,0 +1,38 @@
+{
+  "title": "The 2026 Oklahoma Local AI Shortlist Study & AEO Research Archive (Reports 003-004)",
+  "upload_type": "dataset",
+  "description": "Replication datasets, saved API responses, CSV tables, and zero-network Python verification scripts for Report 003 (Beyond Citation Count) and Report 004 (The 2026 Oklahoma Local AI Shortlist Study: 1,080 saved Gemini API responses with Google Search grounding across 15 Oklahoma cities and 12 local service categories). Published by 580 Digital Infrastructure in Lawton, Oklahoma.",
+  "creators": [
+    {
+      "name": "580 Digital Infrastructure",
+      "affiliation": "580 Digital Infrastructure (Lawton, Oklahoma)"
+    }
+  ],
+  "keywords": [
+    "Answer Engine Optimization",
+    "AEO",
+    "Local SEO",
+    "AI Search Visibility",
+    "Oklahoma",
+    "Google Search Grounding",
+    "Gemini API"
+  ],
+  "license": "CC-BY-4.0",
+  "related_identifiers": [
+    {
+      "identifier": "https://580di.com/research/oklahoma-local-ai-shortlist-study",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://580di.com/research/beyond-citation-count",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://580di.com/research",
+      "relation": "isPartOf",
+      "scheme": "url"
+    }
+  ]
+}

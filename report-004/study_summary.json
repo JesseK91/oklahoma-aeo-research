@@ -1,0 +1,445 @@
+{
+  "analysis_version": "2.1",
+  "analysis_date": "2026-10-17",
+  "model": "gemini-2.5-flash",
+  "historical_temperature": "not explicitly set in archived harness",
+  "total_runs": 1080,
+  "paraphrase_pairs_tested": 540,
+  "total_subqueries_executed": 2962,
+  "total_grounding_sources": 8370,
+  "domain_resolved_sources": 8362,
+  "source_class_counts": {
+    "government_or_education": 1,
+    "listed_directory_social_or_marketplace": 1592,
+    "listed_publisher_or_reference": 31,
+    "other_domain_ownership_unverified": 6738,
+    "unresolved": 8
+  },
+  "ownership_verified": false,
+  "mean_paraphrase_jaccard_overlap_pct": 27.6,
+  "median_paraphrase_jaccard_overlap_pct": 25.0,
+  "jaccard_defined_pairs": 540,
+  "both_empty_pairs": 0,
+  "first_name_comparable_pairs": 540,
+  "first_name_matches": 119,
+  "first_name_agreement_comparable_pct": 22.0,
+  "first_name_agreement_all_pairs_pct": 22.0,
+  "total_unique_cell_business_appearances": 4804,
+  "prompt_coverage_distribution": {
+    "1": {
+      "count": 2906,
+      "pct": 60.5
+    },
+    "2": {
+      "count": 945,
+      "pct": 19.7
+    },
+    "3": {
+      "count": 463,
+      "pct": 9.6
+    },
+    "4": {
+      "count": 249,
+      "pct": 5.2
+    },
+    "5": {
+      "count": 156,
+      "pct": 3.2
+    },
+    "6": {
+      "count": 85,
+      "pct": 1.8
+    }
+  },
+  "total_unique_business_domains_inspected": 1667,
+  "http_200_domains": 1429,
+  "eligible_http200_nonparked_domains": 1365,
+  "tier_3_6_leaders_stats": {
+    "count": 311,
+    "median_word_count": 882,
+    "median_internal_page_count": 22,
+    "pct_city_in_title_or_h1": 69.5,
+    "pct_city_in_h2": 35.4,
+    "pct_has_parseable_schema_type": 85.9
+  },
+  "tier_1_2_occasional_stats": {
+    "count": 685,
+    "median_word_count": 877,
+    "median_internal_page_count": 21,
+    "pct_city_in_title_or_h1": 49.8,
+    "pct_city_in_h2": 24.4,
+    "pct_has_parseable_schema_type": 87.4
+  },
+  "tier_0_unmatched_stats": {
+    "count": 369,
+    "median_word_count": 970,
+    "median_internal_page_count": 26,
+    "pct_city_in_title_or_h1": 33.6,
+    "pct_city_in_h2": 15.4,
+    "pct_has_parseable_schema_type": 80.2
+  },
+  "statistical_tests": {
+    "city_in_title_or_h1": {
+      "success_leaders": 216,
+      "n_leaders": 311,
+      "success_unmatched": 124,
+      "n_unmatched": 369,
+      "odds_ratio": 4.492,
+      "odds_ratio_95ci": [
+        3.25,
+        6.21
+      ],
+      "difference_percentage_points": 35.849,
+      "z": 9.314,
+      "p_value": 1.2285291922948267e-20,
+      "interpretation": "exploratory unadjusted association; identity and independence assumptions apply",
+      "p_holm_5_tests": 6.142645961474133e-20,
+      "cell_cluster_bootstrap_difference_95ci_pp": [
+        27.26,
+        43.94
+      ]
+    },
+    "city_in_h2": {
+      "success_leaders": 110,
+      "n_leaders": 311,
+      "success_unmatched": 57,
+      "n_unmatched": 369,
+      "odds_ratio": 2.996,
+      "odds_ratio_95ci": [
+        2.078,
+        4.318
+      ],
+      "difference_percentage_points": 19.923,
+      "z": 6.013,
+      "p_value": 1.8233631584883866e-09,
+      "interpretation": "exploratory unadjusted association; identity and independence assumptions apply",
+      "p_holm_5_tests": 7.293452633953546e-09,
+      "cell_cluster_bootstrap_difference_95ci_pp": [
+        13.28,
+        26.97
+      ]
+    },
+    "has_parseable_schema_type": {
+      "success_leaders": 267,
+      "n_leaders": 311,
+      "success_unmatched": 296,
+      "n_unmatched": 369,
+      "odds_ratio": 1.497,
+      "odds_ratio_95ci": [
+        0.994,
+        2.253
+      ],
+      "difference_percentage_points": 5.635,
+      "z": 1.94,
+      "p_value": 0.052425802721295905,
+      "interpretation": "exploratory unadjusted association; identity and independence assumptions apply",
+      "p_holm_5_tests": 0.10485160544259181,
+      "cell_cluster_bootstrap_difference_95ci_pp": [
+        0.03,
+        11.71
+      ]
+    },
+    "word_count": {
+      "u": 53344.0,
+      "z": -1.581,
+      "p_value": 0.11380340191337596,
+      "rank_biserial_r": -0.0703,
+      "p_holm_5_tests": 0.11380340191337596
+    },
+    "internal_page_count": {
+      "u": 50616.5,
+      "z": -2.747,
+      "p_value": 0.006012674736896558,
+      "rank_biserial_r": -0.1179,
+      "p_holm_5_tests": 0.018038024210689674
+    }
+  },
+  "bootstrap": {
+    "replicates": 2000,
+    "seed": 40021,
+    "unit": "original primary city-category cell"
+  },
+  "identity_match_counts": {
+    "ambiguous": 47,
+    "exact seed name": 27,
+    "full brand/domain stem": 1763,
+    "full name phrase in title": 712,
+    "no conservative match": 5922
+  },
+  "raw_response_sha256": "b62237357b5456d0097b195585b3d7d18e5b647943b96eb65bc9eb782053d5f9",
+  "inspection_snapshot_sha256": "1da4e9770873f0a41acf4daac546f25a3648e114b862da4a455591f8f68ffe2f",
+  "city_breakdown": [
+    {
+      "city": "Ardmore",
+      "runs": 72,
+      "pairs": 36,
+      "mean_jaccard_overlap_pct": 32.1,
+      "first_name_matches": 12,
+      "comparable_pairs": 36,
+      "first_name_agreement_pct": 33.3,
+      "grounding_sources": 535
+    },
+    {
+      "city": "Broken Arrow",
+      "runs": 72,
+      "pairs": 36,
+      "mean_jaccard_overlap_pct": 28.3,
+      "first_name_matches": 9,
+      "comparable_pairs": 36,
+      "first_name_agreement_pct": 25.0,
+      "grounding_sources": 580
+    },
+    {
+      "city": "Duncan",
+      "runs": 72,
+      "pairs": 36,
+      "mean_jaccard_overlap_pct": 30.8,
+      "first_name_matches": 9,
+      "comparable_pairs": 36,
+      "first_name_agreement_pct": 25.0,
+      "grounding_sources": 493
+    },
+    {
+      "city": "Edmond",
+      "runs": 72,
+      "pairs": 36,
+      "mean_jaccard_overlap_pct": 25.6,
+      "first_name_matches": 7,
+      "comparable_pairs": 36,
+      "first_name_agreement_pct": 19.4,
+      "grounding_sources": 640
+    },
+    {
+      "city": "Enid",
+      "runs": 72,
+      "pairs": 36,
+      "mean_jaccard_overlap_pct": 32.3,
+      "first_name_matches": 7,
+      "comparable_pairs": 36,
+      "first_name_agreement_pct": 19.4,
+      "grounding_sources": 542
+    },
+    {
+      "city": "Lawton",
+      "runs": 72,
+      "pairs": 36,
+      "mean_jaccard_overlap_pct": 33.5,
+      "first_name_matches": 10,
+      "comparable_pairs": 36,
+      "first_name_agreement_pct": 27.8,
+      "grounding_sources": 525
+    },
+    {
+      "city": "Midwest City",
+      "runs": 72,
+      "pairs": 36,
+      "mean_jaccard_overlap_pct": 28.6,
+      "first_name_matches": 7,
+      "comparable_pairs": 36,
+      "first_name_agreement_pct": 19.4,
+      "grounding_sources": 534
+    },
+    {
+      "city": "Moore",
+      "runs": 72,
+      "pairs": 36,
+      "mean_jaccard_overlap_pct": 30.0,
+      "first_name_matches": 8,
+      "comparable_pairs": 36,
+      "first_name_agreement_pct": 22.2,
+      "grounding_sources": 531
+    },
+    {
+      "city": "Norman",
+      "runs": 72,
+      "pairs": 36,
+      "mean_jaccard_overlap_pct": 22.7,
+      "first_name_matches": 5,
+      "comparable_pairs": 36,
+      "first_name_agreement_pct": 13.9,
+      "grounding_sources": 584
+    },
+    {
+      "city": "Oklahoma City",
+      "runs": 72,
+      "pairs": 36,
+      "mean_jaccard_overlap_pct": 16.9,
+      "first_name_matches": 6,
+      "comparable_pairs": 36,
+      "first_name_agreement_pct": 16.7,
+      "grounding_sources": 603
+    },
+    {
+      "city": "Owasso",
+      "runs": 72,
+      "pairs": 36,
+      "mean_jaccard_overlap_pct": 24.0,
+      "first_name_matches": 7,
+      "comparable_pairs": 36,
+      "first_name_agreement_pct": 19.4,
+      "grounding_sources": 546
+    },
+    {
+      "city": "Shawnee",
+      "runs": 72,
+      "pairs": 36,
+      "mean_jaccard_overlap_pct": 31.8,
+      "first_name_matches": 8,
+      "comparable_pairs": 36,
+      "first_name_agreement_pct": 22.2,
+      "grounding_sources": 512
+    },
+    {
+      "city": "Stillwater",
+      "runs": 72,
+      "pairs": 36,
+      "mean_jaccard_overlap_pct": 31.7,
+      "first_name_matches": 11,
+      "comparable_pairs": 36,
+      "first_name_agreement_pct": 30.6,
+      "grounding_sources": 557
+    },
+    {
+      "city": "Tulsa",
+      "runs": 72,
+      "pairs": 36,
+      "mean_jaccard_overlap_pct": 20.8,
+      "first_name_matches": 8,
+      "comparable_pairs": 36,
+      "first_name_agreement_pct": 22.2,
+      "grounding_sources": 584
+    },
+    {
+      "city": "Yukon",
+      "runs": 72,
+      "pairs": 36,
+      "mean_jaccard_overlap_pct": 24.9,
+      "first_name_matches": 5,
+      "comparable_pairs": 36,
+      "first_name_agreement_pct": 13.9,
+      "grounding_sources": 604
+    }
+  ],
+  "category_breakdown": [
+    {
+      "category": "auto_repair",
+      "runs": 90,
+      "pairs": 45,
+      "mean_jaccard_overlap_pct": 26.0,
+      "first_name_matches": 13,
+      "comparable_pairs": 45,
+      "first_name_agreement_pct": 28.9,
+      "grounding_sources": 643
+    },
+    {
+      "category": "electrical",
+      "runs": 90,
+      "pairs": 45,
+      "mean_jaccard_overlap_pct": 33.9,
+      "first_name_matches": 12,
+      "comparable_pairs": 45,
+      "first_name_agreement_pct": 26.7,
+      "grounding_sources": 688
+    },
+    {
+      "category": "foundation_concrete",
+      "runs": 90,
+      "pairs": 45,
+      "mean_jaccard_overlap_pct": 33.1,
+      "first_name_matches": 8,
+      "comparable_pairs": 45,
+      "first_name_agreement_pct": 17.8,
+      "grounding_sources": 646
+    },
+    {
+      "category": "house_cleaning",
+      "runs": 90,
+      "pairs": 45,
+      "mean_jaccard_overlap_pct": 35.1,
+      "first_name_matches": 14,
+      "comparable_pairs": 45,
+      "first_name_agreement_pct": 31.1,
+      "grounding_sources": 714
+    },
+    {
+      "category": "hvac",
+      "runs": 90,
+      "pairs": 45,
+      "mean_jaccard_overlap_pct": 28.9,
+      "first_name_matches": 7,
+      "comparable_pairs": 45,
+      "first_name_agreement_pct": 15.6,
+      "grounding_sources": 705
+    },
+    {
+      "category": "insurance",
+      "runs": 90,
+      "pairs": 45,
+      "mean_jaccard_overlap_pct": 14.5,
+      "first_name_matches": 4,
+      "comparable_pairs": 45,
+      "first_name_agreement_pct": 8.9,
+      "grounding_sources": 738
+    },
+    {
+      "category": "lawn_landscaping",
+      "runs": 90,
+      "pairs": 45,
+      "mean_jaccard_overlap_pct": 19.6,
+      "first_name_matches": 8,
+      "comparable_pairs": 45,
+      "first_name_agreement_pct": 17.8,
+      "grounding_sources": 692
+    },
+    {
+      "category": "local_marketing",
+      "runs": 90,
+      "pairs": 45,
+      "mean_jaccard_overlap_pct": 28.7,
+      "first_name_matches": 15,
+      "comparable_pairs": 45,
+      "first_name_agreement_pct": 33.3,
+      "grounding_sources": 723
+    },
+    {
+      "category": "pest_control",
+      "runs": 90,
+      "pairs": 45,
+      "mean_jaccard_overlap_pct": 32.1,
+      "first_name_matches": 12,
+      "comparable_pairs": 45,
+      "first_name_agreement_pct": 26.7,
+      "grounding_sources": 713
+    },
+    {
+      "category": "plumbing",
+      "runs": 90,
+      "pairs": 45,
+      "mean_jaccard_overlap_pct": 27.5,
+      "first_name_matches": 11,
+      "comparable_pairs": 45,
+      "first_name_agreement_pct": 24.4,
+      "grounding_sources": 671
+    },
+    {
+      "category": "roofing",
+      "runs": 90,
+      "pairs": 45,
+      "mean_jaccard_overlap_pct": 28.5,
+      "first_name_matches": 6,
+      "comparable_pairs": 45,
+      "first_name_agreement_pct": 13.3,
+      "grounding_sources": 679
+    },
+    {
+      "category": "shower_remodeling",
+      "runs": 90,
+      "pairs": 45,
+      "mean_jaccard_overlap_pct": 23.2,
+      "first_name_matches": 9,
+      "comparable_pairs": 45,
+      "first_name_agreement_pct": 20.0,
+      "grounding_sources": 758
+    }
+  ]
+}

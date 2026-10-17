@@ -1,0 +1,16 @@
+ee335b1322185e09f02971ed104d01345cd4fd505f515fa6f5bdb3adc1d7f90b  ./LICENSE-CODE.txt
+464ef213e502dce6a84139d2e8882cc960f21f7b660e4d624e5ddd9272aeee98  ./LICENSE-REPORT.txt
+f297cebfad9771d9baee579e1b54ed5ebd7c8f03a9d30f5901e20995987d9755  ./README.txt
+62a72b33ca80548153c10351fc96d1a9dc6790c64876f6ad581ca079aac56b37  ./RIGHTS-SOURCE-RECORDS.txt
+80a60bfc876d6ca6b89bbbdf9b2f1e6be02a74ba307650ff94e9959387d50360  ./analyze.py
+765ef6a85c7bf12c1a36adf91531b90821678811446bfb1369479645488d8198  ./beyond-citation-count-report-003.pdf
+41a050c73eef1c3f290e2ba12a1e9ab1ed535d5f229a550680f8efb3c7c7fd1e  ./derived-results.json
+3de6ad6ff739ff4fec15f4552b5e524bde6ae06266ac8873353557e525d81bbf  ./figures/citation-count-vs-share.svg
+94fb32461368ec5a7e695f7d5fe07891e70ccdf56de2589d26575c0644e49498  ./figures/daily-ai-citation-activity.svg
+1397cb42165700d15ab8ac9c2bc6b30cdf7f7388d9e2eb01dac7ce5f26f8b4c0  ./figures/page-family-citations.svg
+9d74405bc30860aa121bd658c2ed3868a269b43bb9cd6eaed6e00293eb7d5d0c  ./figures/query-page-concentration.svg
+44bca91c0d058f5be7715c1530b63bdface6fa697a1bd5819dc0b038dd46f24a  ./generate_figures.py
+4597ce5cc018ca3273d1b96124b02899c1de28ce2f2203ccba80685387d394d1  ./scentonym-bing-ai-performance-daily.csv
+1d9d1fb1d84c62bfd3f455b0830f4975a064e1f989df4614c8fdc1c5a8b83963  ./scentonym-bing-ai-performance-dashboard.png
+fc78c7cfd86711f3c0a0ac3fa4a5bae4ec2b92ce5642af0d78731835ffeb200f  ./scentonym-bing-grounding-queries.csv
+7a0400b9d192cb791d8f94a34d420625c5d84fbfcb1d33937203822b67e7c1fa  ./scentonym-bing-page-citations.csv

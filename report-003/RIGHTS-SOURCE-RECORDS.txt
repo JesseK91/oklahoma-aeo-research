@@ -1,0 +1,18 @@
+Rights statement for platform-generated source records
+
+The following files are reproduced for research transparency and source
+verification:
+
+- scentonym-bing-ai-performance-dashboard.png
+- scentonym-bing-ai-performance-daily.csv
+- scentonym-bing-grounding-queries.csv
+- scentonym-bing-page-citations.csv
+
+Microsoft retains all rights in its platform, interface, documentation,
+marks, and Microsoft-origin material. 580 Digital Infrastructure does not
+claim ownership of Microsoft-origin platform fields and grants no independent
+license to Microsoft material.
+
+The records document first-party reporting for a property operated by the
+author. Any reuse must preserve Microsoft attribution and comply with the
+applicable Microsoft terms.

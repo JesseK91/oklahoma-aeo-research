@@ -1,0 +1,84 @@
+{
+  "description": "Names manually transcribed in first-occurrence order from all 10 saved responses without bold markup. Includes named national providers. This verifies transcription, not provider claims. Run 1008 is also transcribed because its leading names are unbolded and its concluding bold text combines multiple agents.",
+  "runs": {
+    "522": [
+      "Bob Usry & Sons Plumbing",
+      "Armstrong Plumbing",
+      "Relief Plumbing",
+      "Whittys Design And Handyman Services",
+      "Max-TrueFix HomeCare",
+      "Gilded Plumbing"
+    ],
+    "546": [
+      "Massey Services Pest Control",
+      "Armory Pest Defense LLC",
+      "Mosquito Joe"
+    ],
+    "690": [
+      "EnviroGuard Pest Control",
+      "Massey Services",
+      "Ant & Rodent Pest Control Enid",
+      "Terminix",
+      "Orkin"
+    ],
+    "714": [
+      "Oklahoma Foundation Solutions",
+      "Edens Structural Solutions",
+      "Enid Foundation Repair",
+      "Vesta Foundation Solutions",
+      "Stillwater Concrete",
+      "Precision Enid Concrete"
+    ],
+    "726": [
+      "RSI-Roofing Services, Inc.",
+      "Outback Restoration & Roofing",
+      "Watertite Roofing and Sheet Metal LLC"
+    ],
+    "762": [
+      "Hansen Pest Control",
+      "A&B Eco-Safe Pest Control, Inc.",
+      "Cowboy Pest Management",
+      "Terminix",
+      "Orkin"
+    ],
+    "792": [
+      "Allegiant Insurance",
+      "Lucas Grounds",
+      "Michael Reeves",
+      "J. K. Meadors & Co.",
+      "Jodie Jackson Agency"
+    ],
+    "1050": [
+      "Oklahoma Pest Services Co.",
+      "Red Dirt Pest Control",
+      "Terminix",
+      "Orkin",
+      "Beetle Juice Pest Control"
+    ],
+    "1056": [
+      "Erik's Total Car Care",
+      "Norton's Auto Repair",
+      "Quality Automotive Llc",
+      "Zeigler Transmission & Auto Repair Inc."
+    ],
+    "1062": [
+      "Merry Maids",
+      "Crystal Clean",
+      "Houston Cleaning LLC",
+      "Shine Brite Housekeeping Services",
+      "ScrubMates",
+      "Robyn's Cleaning Service",
+      "B E Cleaning Service"
+    ],
+    "1008": [
+      "Steven Russell",
+      "Amber Knight",
+      "Jordan-Snodgrass Agency Inc.",
+      "Larry Dalton",
+      "Tod Weder",
+      "Mo's Agencies",
+      "Barry L. Bowker",
+      "Rickets Fennell & Associates"
+    ]
+  }
+}

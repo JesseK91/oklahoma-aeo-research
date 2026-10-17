@@ -1,0 +1,281 @@
+{
+  "grounding_queries": {
+    "citation_share": {
+      "first_quartile": 18.802500000000002,
+      "maximum": 66.67,
+      "median": 26.205,
+      "minimum": 7.86,
+      "third_quartile": 34.9825
+    },
+    "citations": 1901,
+    "concentration": {
+      "top_1": {
+        "citations": 173,
+        "percent": 9.1005
+      },
+      "top_10": {
+        "citations": 1048,
+        "percent": 55.1289
+      },
+      "top_20": {
+        "citations": 1386,
+        "percent": 72.909
+      },
+      "top_3": {
+        "citations": 503,
+        "percent": 26.4598
+      },
+      "top_5": {
+        "citations": 744,
+        "percent": 39.1373
+      },
+      "top_50": {
+        "citations": 1804,
+        "percent": 94.8974
+      }
+    },
+    "concept_families": {
+      "Afnan 9PM": {
+        "citations": 86,
+        "groups": 5
+      },
+      "God of Fire": {
+        "citations": 153,
+        "groups": 3
+      },
+      "Hawas Ice": {
+        "citations": 274,
+        "groups": 7
+      },
+      "Imagination": {
+        "citations": 207,
+        "groups": 6
+      },
+      "Khamrah": {
+        "citations": 45,
+        "groups": 3
+      },
+      "Rayhaan Obsidian": {
+        "citations": 58,
+        "groups": 3
+      }
+    },
+    "correlation": {
+      "pearson": 0.027717917808218445,
+      "spearman": 0.18088129674816522
+    },
+    "intent_citations": {
+      "Commercial": 1188,
+      "Comparison": 198,
+      "Informational": 250,
+      "Learn and Solve": 30,
+      "Local": 3,
+      "Media": 11,
+      "Others": 35,
+      "Research": 142,
+      "Unclassified": 35,
+      "Utility": 9
+    },
+    "rows": 72
+  },
+  "overview": {
+    "citations": {
+      "daily_mean": 195.08287292817678,
+      "daily_median": 178,
+      "daily_standard_deviation": 84.3754755346625,
+      "maximum": 533,
+      "maximum_date": "2026-05-31",
+      "minimum": 45,
+      "minimum_date": "2026-02-14",
+      "total": 35310
+    },
+    "cited_pages": {
+      "daily_mean": 59.74585635359116,
+      "daily_median": 57,
+      "daily_standard_deviation": 20.35030840501566,
+      "maximum": 146,
+      "maximum_date": "2026-07-26",
+      "minimum": 19,
+      "minimum_date": "2026-08-01"
+    },
+    "daily_citations_cited_pages_pearson": 0.685457684053802,
+    "duplicate_date_rows": 0,
+    "end_date": "2026-08-10",
+    "first_vs_final_30_days": {
+      "citation_mean_change_percent": 92.4628182505672,
+      "cited_pages_mean_change_percent": 16.0043549265106,
+      "final_daily_citation_mean": 254.5,
+      "final_daily_cited_pages_mean": 71.03333333333333,
+      "first_daily_citation_mean": 132.23333333333332,
+      "first_daily_cited_pages_mean": 61.233333333333334
+    },
+    "inclusive_days": 181,
+    "missing_dates": [],
+    "monthly": {
+      "2026-02": {
+        "citations": 1790,
+        "daily_citation_mean": 99.44444444444444,
+        "daily_cited_pages_mean": 50.888888888888886,
+        "days": 18
+      },
+      "2026-03": {
+        "citations": 5744,
+        "daily_citation_mean": 185.29032258064515,
+        "daily_cited_pages_mean": 69.87096774193549,
+        "days": 31
+      },
+      "2026-04": {
+        "citations": 6068,
+        "daily_citation_mean": 202.26666666666668,
+        "daily_cited_pages_mean": 61.43333333333333,
+        "days": 30
+      },
+      "2026-05": {
+        "citations": 5935,
+        "daily_citation_mean": 191.4516129032258,
+        "daily_cited_pages_mean": 53.45161290322581,
+        "days": 31
+      },
+      "2026-06": {
+        "citations": 5899,
+        "daily_citation_mean": 196.63333333333333,
+        "daily_cited_pages_mean": 49.63333333333333,
+        "days": 30
+      },
+      "2026-07": {
+        "citations": 7666,
+        "daily_citation_mean": 247.29032258064515,
+        "daily_cited_pages_mean": 70.51612903225806,
+        "days": 31
+      },
+      "2026-08": {
+        "citations": 2208,
+        "daily_citation_mean": 220.8,
+        "daily_cited_pages_mean": 55.7,
+        "days": 10
+      }
+    },
+    "rows": 181,
+    "seven_day_rolling_citations": {
+      "final": 266.42857142857144,
+      "final_end_date": "2026-08-10",
+      "first": 69.14285714285714,
+      "first_end_date": "2026-02-17",
+      "minimum": 69.14285714285714,
+      "minimum_end_date": "2026-02-17",
+      "peak": 401.7142857142857,
+      "peak_end_date": "2026-07-26"
+    },
+    "seven_day_rolling_cited_pages": {
+      "final": 69.28571428571429,
+      "first": 39.857142857142854
+    },
+    "start_date": "2026-02-11",
+    "unique_dates": 181
+  },
+  "pages": {
+    "citations": 22745,
+    "concentration": {
+      "top_1": {
+        "citations": 825,
+        "percent": 3.6272
+      },
+      "top_10": {
+        "citations": 3336,
+        "percent": 14.667
+      },
+      "top_100": {
+        "citations": 10902,
+        "percent": 47.9314
+      },
+      "top_1000": {
+        "citations": 22292,
+        "percent": 98.0084
+      },
+      "top_20": {
+        "citations": 4983,
+        "percent": 21.9081
+      },
+      "top_250": {
+        "citations": 15690,
+        "percent": 68.9822
+      },
+      "top_3": {
+        "citations": 1797,
+        "percent": 7.9006
+      },
+      "top_5": {
+        "citations": 2306,
+        "percent": 10.1385
+      },
+      "top_50": {
+        "citations": 7883,
+        "percent": 34.6582
+      },
+      "top_500": {
+        "citations": 19437,
+        "percent": 85.4561
+      }
+    },
+    "mean_citations": 16.79837518463811,
+    "median_citations": 6.0,
+    "rows": 1354,
+    "structured_entity_relationship_pages": {
+      "citations": 21465,
+      "families": [
+        "fragrance",
+        "clone",
+        "clone-of"
+      ],
+      "pages": 1266,
+      "percent": 94.3724
+    },
+    "url_families": {
+      "about": {
+        "citations": 8,
+        "pages": 1,
+        "percent": 0.0352
+      },
+      "blog": {
+        "citations": 668,
+        "pages": 53,
+        "percent": 2.9369
+      },
+      "brand": {
+        "citations": 385,
+        "pages": 27,
+        "percent": 1.6927
+      },
+      "brands": {
+        "citations": 4,
+        "pages": 1,
+        "percent": 0.0176
+      },
+      "clone": {
+        "citations": 6934,
+        "pages": 420,
+        "percent": 30.4858
+      },
+      "clone-of": {
+        "citations": 4265,
+        "pages": 154,
+        "percent": 18.7514
+      },
+      "fragrance": {
+        "citations": 10266,
+        "pages": 692,
+        "percent": 45.1352
+      },
+      "homepage": {
+        "citations": 193,
+        "pages": 1,
+        "percent": 0.8485
+      },
+      "icons": {
+        "citations": 22,
+        "pages": 5,
+        "percent": 0.0967
+      }
+    }
+  }
+}

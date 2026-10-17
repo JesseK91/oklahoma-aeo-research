@@ -1,0 +1,506 @@
+{
+  "study_id": "report-004-oklahoma-local-ai-shortlist-2026",
+  "title": "The 2026 Oklahoma Local AI Shortlist Study: Empirical Retrieval, Citation, and Recommendation Patterns Across 1,080 Grounded Buyer Queries in 15 Oklahoma Markets",
+  "version": "2.0",
+  "protocol_reference": "https://580di.com/research/measuring-aeo",
+  "markets": [
+    {
+      "id": "lawton",
+      "city": "Lawton",
+      "state": "OK",
+      "county": "Comanche County",
+      "role": "Primary Southwest Oklahoma (580) hub"
+    },
+    {
+      "id": "yukon",
+      "city": "Yukon",
+      "state": "OK",
+      "county": "Canadian County",
+      "role": "West OKC metro suburban growth market"
+    },
+    {
+      "id": "okc",
+      "city": "Oklahoma City",
+      "state": "OK",
+      "county": "Oklahoma County",
+      "role": "Primary Oklahoma metro market"
+    },
+    {
+      "id": "tulsa",
+      "city": "Tulsa",
+      "state": "OK",
+      "county": "Tulsa County",
+      "role": "Primary Northeast Oklahoma metro market"
+    },
+    {
+      "id": "norman",
+      "city": "Norman",
+      "state": "OK",
+      "county": "Cleveland County",
+      "role": "Third-largest city in Oklahoma (South OKC metro)"
+    },
+    {
+      "id": "broken_arrow",
+      "city": "Broken Arrow",
+      "state": "OK",
+      "county": "Tulsa / Wagoner County",
+      "role": "Fourth-largest city in Oklahoma (East Tulsa metro)"
+    },
+    {
+      "id": "edmond",
+      "city": "Edmond",
+      "state": "OK",
+      "county": "Oklahoma County",
+      "role": "Fifth-largest city in Oklahoma (North OKC metro)"
+    },
+    {
+      "id": "moore",
+      "city": "Moore",
+      "state": "OK",
+      "county": "Cleveland County",
+      "role": "Seventh-largest city in Oklahoma (Central OKC metro)"
+    },
+    {
+      "id": "midwest_city",
+      "city": "Midwest City",
+      "state": "OK",
+      "county": "Oklahoma County",
+      "role": "Eighth-largest city in Oklahoma (East OKC metro)"
+    },
+    {
+      "id": "enid",
+      "city": "Enid",
+      "state": "OK",
+      "county": "Garfield County",
+      "role": "Primary Northwest Oklahoma regional hub"
+    },
+    {
+      "id": "stillwater",
+      "city": "Stillwater",
+      "state": "OK",
+      "county": "Payne County",
+      "role": "Tenth-largest city in Oklahoma (North-Central university and regional hub)"
+    },
+    {
+      "id": "owasso",
+      "city": "Owasso",
+      "state": "OK",
+      "county": "Tulsa / Rogers County",
+      "role": "North Tulsa metro suburban growth market"
+    },
+    {
+      "id": "shawnee",
+      "city": "Shawnee",
+      "state": "OK",
+      "county": "Pottawatomie County",
+      "role": "I-40 corridor regional hub east of Oklahoma City"
+    },
+    {
+      "id": "ardmore",
+      "city": "Ardmore",
+      "state": "OK",
+      "county": "Carter County",
+      "role": "Primary Southern Oklahoma I-35 regional hub"
+    },
+    {
+      "id": "duncan",
+      "city": "Duncan",
+      "state": "OK",
+      "county": "Stephens County",
+      "role": "Southwest Oklahoma (580) regional hub"
+    }
+  ],
+  "categories": [
+    {
+      "id": "roofing",
+      "name": "Roofing & Storm Restoration",
+      "cib_regulated": true,
+      "intents": [
+        {
+          "intent_id": "hail_insurance",
+          "intent_name": "Hail Damage & Insurance Claim Roof Replacement",
+          "prompts": [
+            "Who should I hire for hail damage roof replacement in {city}, OK?",
+            "Best roofing company in {city} Oklahoma for a storm damage insurance claim"
+          ]
+        },
+        {
+          "intent_id": "emergency_leak",
+          "intent_name": "Emergency Roof Leak Repair",
+          "prompts": [
+            "Who does dependable roof leak repair in {city} OK?",
+            "Trusted local roofer in {city} Oklahoma to fix an active roof leak"
+          ]
+        },
+        {
+          "intent_id": "reputation_general",
+          "intent_name": "Most Reputable Licensed Local Roofer",
+          "prompts": [
+            "Who are the most reputable licensed roofing contractors in {city}, OK?",
+            "Which roofing company in {city} Oklahoma has the strongest local reputation?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hvac",
+      "name": "HVAC Repair & System Replacement",
+      "cib_regulated": true,
+      "intents": [
+        {
+          "intent_id": "ac_repair",
+          "intent_name": "Urgent Air Conditioning Repair",
+          "prompts": [
+            "Who should I call for AC repair in {city}, OK?",
+            "Best air conditioning repair company in {city} Oklahoma when my AC stops cooling"
+          ]
+        },
+        {
+          "intent_id": "system_replacement",
+          "intent_name": "Full HVAC System Replacement",
+          "prompts": [
+            "Who is the best HVAC contractor in {city} OK to replace a central heat and air unit?",
+            "Most trustworthy heating and air company in {city} Oklahoma for a new AC installation"
+          ]
+        },
+        {
+          "intent_id": "reputation_licensed",
+          "intent_name": "Licensed Local Mechanical Contractor",
+          "prompts": [
+            "Who are the top licensed HVAC companies in {city}, OK?",
+            "Which heating and cooling contractor in {city} Oklahoma do homeowners trust most?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "plumbing",
+      "name": "Plumbing & Water Heater / Slab Leak Service",
+      "cib_regulated": true,
+      "intents": [
+        {
+          "intent_id": "emergency_plumbing",
+          "intent_name": "Emergency Plumbing & Drain / Leak Repair",
+          "prompts": [
+            "Who should I call for an emergency plumber in {city}, OK?",
+            "Reliable local plumber in {city} Oklahoma for a burst pipe or slab leak"
+          ]
+        },
+        {
+          "intent_id": "water_heater",
+          "intent_name": "Water Heater Replacement & Tankless Install",
+          "prompts": [
+            "Who is the best plumber in {city} OK to replace a water heater?",
+            "Recommended plumbing company in {city} Oklahoma for tankless water heater installation"
+          ]
+        },
+        {
+          "intent_id": "reputation_licensed",
+          "intent_name": "Most Reputable Licensed Plumber",
+          "prompts": [
+            "Who are the best licensed plumbers in {city}, OK?",
+            "Which plumbing company in {city} Oklahoma has the best reputation for honest work?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shower_remodeling",
+      "name": "Custom Showers, Tile & Bathroom Remodeling",
+      "cib_regulated": false,
+      "intents": [
+        {
+          "intent_id": "custom_tile_shower",
+          "intent_name": "Custom Walk-In Tile Shower Build",
+          "prompts": [
+            "Who builds the best custom tile showers in {city}, OK?",
+            "Who should I hire for a walk-in tile shower remodel in {city} Oklahoma?"
+          ]
+        },
+        {
+          "intent_id": "waterproofing_quality",
+          "intent_name": "Proper Shower Waterproofing & Full Tear-Out",
+          "prompts": [
+            "Which bathroom remodeler or tile contractor in {city} OK does proper shower tear-out and waterproofing?",
+            "Best contractor in {city} Oklahoma for a custom bathroom and shower remodel built to last"
+          ]
+        },
+        {
+          "intent_id": "reputation_remodeler",
+          "intent_name": "Top Bathroom Remodeling Specialist",
+          "prompts": [
+            "Who are the top bathroom remodeling companies in {city}, OK?",
+            "Which local contractor in {city} Oklahoma is best for a master bathroom renovation?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "local_marketing",
+      "name": "Local Marketing, SEO & Custom Web Design",
+      "cib_regulated": false,
+      "intents": [
+        {
+          "intent_id": "local_marketing",
+          "intent_name": "Local Business Marketing & Lead Growth",
+          "prompts": [
+            "Who is doing real local marketing work in {city}, OK?",
+            "What marketing company should a small business in {city} Oklahoma hire?"
+          ]
+        },
+        {
+          "intent_id": "local_seo",
+          "intent_name": "Local SEO & Google Business Profile Help",
+          "prompts": [
+            "Who should I hire for local SEO and Google Business Profile help in {city} OK?",
+            "Best SEO company in {city} Oklahoma for local small businesses"
+          ]
+        },
+        {
+          "intent_id": "custom_web_design",
+          "intent_name": "Custom Small Business & Contractor Web Design",
+          "prompts": [
+            "Who builds custom small business websites in {city} Oklahoma?",
+            "Best web design company in {city} OK for local contractors and service businesses"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "electrical",
+      "name": "Electrical Repair, Panel Upgrades & Generators",
+      "cib_regulated": true,
+      "intents": [
+        {
+          "intent_id": "panel_breaker",
+          "intent_name": "Electrical Panel Upgrade & Breaker Repair",
+          "prompts": [
+            "Who should I call for an electrical panel upgrade or breaker repair in {city}, OK?",
+            "Best licensed electrician in {city} Oklahoma to replace a residential breaker box"
+          ]
+        },
+        {
+          "intent_id": "generator_ev",
+          "intent_name": "Whole-Home Generator & EV Charger Installation",
+          "prompts": [
+            "Which electrician in {city} OK installs whole-home backup generators or EV chargers?",
+            "Recommended electrical contractor in {city} Oklahoma for home generator installation"
+          ]
+        },
+        {
+          "intent_id": "reputation_electrician",
+          "intent_name": "Most Reputable Licensed Electrician",
+          "prompts": [
+            "Who are the most reputable licensed electricians in {city}, OK?",
+            "Which electrical company in {city} Oklahoma do homeowners trust most?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pest_control",
+      "name": "Pest Control, Extermination & Termite Treatment",
+      "cib_regulated": false,
+      "intents": [
+        {
+          "intent_id": "termite_treatment",
+          "intent_name": "Termite Inspection & Treatment",
+          "prompts": [
+            "Who should I hire for termite inspection and treatment in {city}, OK?",
+            "Best termite and pest control company in {city} Oklahoma for home protection"
+          ]
+        },
+        {
+          "intent_id": "general_exterminator",
+          "intent_name": "Residential Pest & Rodent Extermination",
+          "prompts": [
+            "Who is the best local exterminator in {city} OK for spiders, roaches, and rodents?",
+            "Reliable pest control service in {city} Oklahoma without pushy contracts"
+          ]
+        },
+        {
+          "intent_id": "reputation_pest",
+          "intent_name": "Top-Rated Local Pest Control Company",
+          "prompts": [
+            "Who are the best pest control companies in {city}, OK?",
+            "Which local exterminator in {city} Oklahoma has the strongest reputation?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "auto_repair",
+      "name": "Auto Repair, Brake Service & Engine Diagnostics",
+      "cib_regulated": false,
+      "intents": [
+        {
+          "intent_id": "honest_mechanic",
+          "intent_name": "Honest Local Mechanic & Engine Diagnostics",
+          "prompts": [
+            "Who is the most honest mechanic in {city}, OK for check engine light diagnostics?",
+            "Best independent auto repair shop in {city} Oklahoma that won't overcharge"
+          ]
+        },
+        {
+          "intent_id": "brakes_suspension",
+          "intent_name": "Brake Repair & Suspension Service",
+          "prompts": [
+            "Where should I take my car for brake repair and suspension work in {city} OK?",
+            "Trusted local auto shop in {city} Oklahoma for brakes and front-end repair"
+          ]
+        },
+        {
+          "intent_id": "reputation_auto",
+          "intent_name": "Most Reputable Auto Repair Shop",
+          "prompts": [
+            "What are the best auto repair shops in {city}, OK?",
+            "Which mechanic shop in {city} Oklahoma do locals recommend most?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "house_cleaning",
+      "name": "Residential, Deep-Clean & Move-Out House Cleaning",
+      "cib_regulated": false,
+      "intents": [
+        {
+          "intent_id": "move_out_deep_clean",
+          "intent_name": "Move-Out & Deep House Cleaning",
+          "prompts": [
+            "Who should I hire for a move-out or deep house cleaning in {city}, OK?",
+            "Best house cleaning company in {city} Oklahoma for a deep clean"
+          ]
+        },
+        {
+          "intent_id": "recurring_maid",
+          "intent_name": "Recurring Residential Cleaning Service",
+          "prompts": [
+            "Who is the most dependable recurring house cleaning service in {city} OK?",
+            "Trusted local maid and residential cleaning company in {city} Oklahoma"
+          ]
+        },
+        {
+          "intent_id": "reputation_cleaning",
+          "intent_name": "Top-Rated Local Cleaning Company",
+          "prompts": [
+            "What are the best house cleaning services in {city}, OK?",
+            "Which residential cleaning company in {city} Oklahoma do homeowners trust most?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lawn_landscaping",
+      "name": "Lawn Care, Landscaping & Seasonal Property Maintenance",
+      "cib_regulated": false,
+      "intents": [
+        {
+          "intent_id": "lawn_maintenance",
+          "intent_name": "Dependable Lawn Mowing & Yard Maintenance",
+          "prompts": [
+            "Who should I hire for dependable lawn care and yard maintenance in {city}, OK?",
+            "Best local lawn service in {city} Oklahoma for mowing and property upkeep"
+          ]
+        },
+        {
+          "intent_id": "landscaping_cleanup",
+          "intent_name": "Landscaping, Sod & Seasonal Cleanup",
+          "prompts": [
+            "Which landscaping company in {city} OK does yard cleanups, flower beds, and sod?",
+            "Recommended landscaper in {city} Oklahoma for front yard landscaping and drainage"
+          ]
+        },
+        {
+          "intent_id": "reputation_lawn",
+          "intent_name": "Most Reputable Lawn & Landscape Company",
+          "prompts": [
+            "Who are the best lawn care and landscaping companies in {city}, OK?",
+            "Which local lawn care business in {city} Oklahoma has the best reputation?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "foundation_concrete",
+      "name": "Foundation Repair, Slab Piering & Concrete Work",
+      "cib_regulated": false,
+      "intents": [
+        {
+          "intent_id": "slab_foundation",
+          "intent_name": "Slab Foundation Repair & Piering",
+          "prompts": [
+            "Who should I call for slab foundation repair in {city}, OK?",
+            "Best foundation repair company in {city} Oklahoma for settling slabs and wall cracks"
+          ]
+        },
+        {
+          "intent_id": "concrete_driveway",
+          "intent_name": "Concrete Driveway & Patio Replacement",
+          "prompts": [
+            "Who is the best concrete contractor in {city} OK for a new driveway or patio?",
+            "Reliable local concrete company in {city} Oklahoma for residential flatwork"
+          ]
+        },
+        {
+          "intent_id": "reputation_foundation",
+          "intent_name": "Most Trusted Foundation & Concrete Contractor",
+          "prompts": [
+            "Who are the most reputable foundation repair companies in {city}, OK?",
+            "Which foundation and concrete contractor in {city} Oklahoma do homeowners trust?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "insurance",
+      "name": "Independent Home, Auto & Family Insurance Agencies",
+      "cib_regulated": false,
+      "intents": [
+        {
+          "intent_id": "home_roof_insurance",
+          "intent_name": "Oklahoma Home & Roof Coverage Insurance Agent",
+          "prompts": [
+            "Who is the best local insurance agent in {city}, OK for homeowners and roof coverage?",
+            "Recommended independent insurance agency in {city} Oklahoma to shop home and auto rates"
+          ]
+        },
+        {
+          "intent_id": "auto_family_insurance",
+          "intent_name": "Personal Auto & Family Insurance",
+          "prompts": [
+            "Where should I go for affordable auto and family insurance in {city} OK?",
+            "Best local insurance broker in {city} Oklahoma who compares multiple carriers"
+          ]
+        },
+        {
+          "intent_id": "reputation_insurance",
+          "intent_name": "Most Trusted Local Insurance Agency",
+          "prompts": [
+            "Who are the best local insurance agencies in {city}, OK?",
+            "Which insurance agent in {city} Oklahoma has the strongest local reputation?"
+          ]
+        }
+      ]
+    }
+  ],
+  "seed_businesses": [
+    {"name": "580 Digital Infrastructure", "url": "https://580di.com", "city": "Lawton", "category": "local_marketing"},
+    {"name": "Parsons Stone & Tile", "url": "https://okcbath.com", "city": "Oklahoma City", "category": "shower_remodeling"},
+    {"name": "Modern Asset Lab", "url": "https://www.modernassetlab.com", "city": "Tulsa", "category": "local_marketing"},
+    {"name": "WEBB Branding", "url": "https://webbbranding.com", "city": "Tulsa", "category": "local_marketing"},
+    {"name": "Lockwood & Sons Construction", "url": "https://www.lawtonroofers.com", "city": "Lawton", "category": "roofing"},
+    {"name": "Brox Roofing", "url": "https://www.broxroofing.com", "city": "Lawton", "category": "roofing"},
+    {"name": "Superior Roofing by All-Pro", "url": "https://www.superiorroofingbyallpro.com", "city": "Lawton", "category": "roofing"},
+    {"name": "Liberty Roofing", "url": "https://libertyroofer.com", "city": "Lawton", "category": "roofing"},
+    {"name": "Keystone Roofing", "url": "https://keystoneroofingcompany.com", "city": "Lawton", "category": "roofing"},
+    {"name": "TayCo Roofing", "url": "https://taycoroofing.com", "city": "Lawton", "category": "roofing"},
+    {"name": "A Plus+ Mechanical", "url": "https://www.amechanicalllc.com", "city": "Lawton", "category": "hvac"},
+    {"name": "Robinson Air", "url": "https://www.robinsonair.com", "city": "Lawton", "category": "hvac"},
+    {"name": "Pippin Brothers", "url": "https://www.pippinbrothers.com", "city": "Lawton", "category": "hvac"},
+    {"name": "Son of Thunder Roofing", "url": "https://sonofthunderroofing.com", "city": "Yukon", "category": "roofing"},
+    {"name": "Drabek & Hill", "url": "https://drabekandhill.com", "city": "Yukon", "category": "hvac"},
+    {"name": "Chazown Roofing", "url": "https://chazownroofs.com", "city": "Yukon", "category": "roofing"},
+    {"name": "R&C Roof Co", "url": "https://rcroofco.com", "city": "Yukon", "category": "roofing"}
+  ]
+}
